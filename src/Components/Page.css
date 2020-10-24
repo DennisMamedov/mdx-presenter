@@ -1,0 +1,46 @@
+.Total {
+  background-color: white;
+  color: black;
+  height: 100vh;
+  overflow-y: scroll;
+  font-size: 120%;
+}
+
+.Page {
+  margin: 5vh;
+  padding: 1vh;
+  min-height: 80vh;
+  border-bottom: black 1px dotted;
+  display: flex;
+}
+
+.Center {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Left {
+  max-width: 50rem;
+}
+
+.Right {
+  margin: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: right;
+  float: right;
+}
+
+.Right .Code {
+  text-align: left;
+  float: right;
+}
+
+table {
+  padding: 1vh;
+  background-color: rgba(0, 0, 0, 0.3)
+}

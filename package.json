@@ -1,20 +1,27 @@
 {
   "name": "mdx-presentation",
+  "main": "src/electron-starter.js",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
+    "@mdx-js/react": "^1.6.16",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "mdx.macro": "^0.2.9",
+    "minimist": "^1.2.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts-mdx": "^3.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "dev": "BROWSER=none nf start"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +37,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "acorn": "^7.3.1",
+    "electron": "^9.1.2",
+    "foreman": "^3.0.1"
   }
 }

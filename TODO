@@ -1,0 +1,9 @@
+Add CLI support
+
+Add options for markup in mdx
+
+LaTeX?
+
+Bugs:
+  - Pages with <Right /> also affect code blocks with text-decoration
+  - <li> item dot will start at the left side of div while text is on the <Right />
